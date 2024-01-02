@@ -9,10 +9,8 @@ export const GlobalStyle = createGlobalStyle`
     list-style: none;
   }
   body{
-    padding-top: 80px;
-    @media (max-width: 768px) {
+    padding: 80px 0;
 
-    }
   }
 `
 export const Container = styled.div`

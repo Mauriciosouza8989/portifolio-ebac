@@ -1,10 +1,19 @@
+import { Avatar } from '../../components/Avatar'
 import { Title } from '../../components/Title'
-import { Container } from './style'
+import { Text } from '../../components/Text'
+import { Container, Button } from './style'
 export const Sidebar = () => (
   <aside>
     <Container>
-      <img src="https://github.com/Mauriciosouza8989.png" alt="" />
+      <Avatar />
       <Title fontSize={20}>Maurício</Title>
+      <Text typetext="secondary" fontSize={16}>
+        Mauriciosouza8989
+      </Text>
+      <Text typetext="primary" fontSize={12}>
+        Desenvolvedor Full Stack Python
+      </Text>
+      <Button type="button">Trocar tema</Button>
     </Container>
   </aside>
 )
